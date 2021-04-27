@@ -13,3 +13,5 @@ The training procedure and testing process is defined in the flowchart
 
 <img width="213" alt="TrainingProcess" src="https://user-images.githubusercontent.com/55220359/116310435-02cf8280-a778-11eb-8150-3d8fff728a0b.png">
 <img width="184" alt="TestingProcess" src="https://user-images.githubusercontent.com/55220359/116314242-d8cc8f00-a77c-11eb-8cfd-c7bca0af161e.png">
+Several models were designed to perform the task of classification. Each model was initialized with its first layer as the Embedding layer to generate the Embedding
+matrix that holds the real-value representation of the input text data. 
