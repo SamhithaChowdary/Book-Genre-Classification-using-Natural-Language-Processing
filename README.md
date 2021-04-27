@@ -9,6 +9,7 @@ Introduction: The book genre helps in classifying the books into various categor
 The classification is performed using various Deep Learning algorithms like Convolutional Neural Layer Networks(CNN), Recurrent Neural Networks(RNN), Long Short-Term Memory(LSTM), etc. These algorithms require data to be in numeric form. Therefore, the main objective is to convert the unstructured text data into an equivalent structured numeric data.
 
 Embedding Layer: The Embedding layer is used as the first layer of the neural network and is fitted using a supervised learning approach via the Back-propagation algorithm. The vectors are treated as trainable parameters of the model. The one-hot encoded representation of a word is mapped to the word vectors. The word vectors are joined together and fed as input to a Multi-Layer Perceptron model. In the case of Recurrent Neural Network, each word is passed as input in a sequence.
-The training procedure is defined in the flowchart
+The training procedure and testing process is defined in the flowchart
 
 <img width="213" alt="TrainingProcess" src="https://user-images.githubusercontent.com/55220359/116310435-02cf8280-a778-11eb-8150-3d8fff728a0b.png">
+<img width="184" alt="TestingProcess" src="https://user-images.githubusercontent.com/55220359/116314242-d8cc8f00-a77c-11eb-8cfd-c7bca0af161e.png">
